@@ -1,0 +1,15 @@
+*.log
+*.srt
+.git
+.github
+.idea
+__pycache__
+*.spec
+*.ui
+*.bak
+*.aac
+*.7z
+runtime
+utils
+tmp
+runtime
