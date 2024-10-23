@@ -27,7 +27,7 @@ SenseVoice 是阿里开源的语音识别基础模型，支持识别中日韩英
 2. 使用win整合包部署，仅支持部署在Windows10/11上，在本页面右侧 https://github.com/jianchang512/sense-api/releases  下载压缩包，解压后双击 `run-api.bat` 即可使用 `API`, 双击`run-webui.bat`可打开web界面。
 
 
-## 使用 Api
+## Api信息
 
 默认 Api 地址是 `http://127.0.0.1:5000/asr`
 
@@ -44,18 +44,14 @@ PORT=5000
 
 > 注意第一次使用时，会联网从 modelscope 下载模型，用时会教长
 
-**在视频翻译配音工具中使用**
+## 在视频翻译配音工具中使用API
 
 将api地址填写到菜单--语音识别设置-SenseVoice语音识别窗口的 API地址中即可。
 
 
-## 使用 webui在浏览器中使用
-
-1. 如果是源码部署的官方包，执行 `python webui.py`，等待终端显示 `http://127.0.0.1:7860`时，在浏览器中输入该地址即可使用
-2. 如果是win整合包，双击`run-webui.bat`，启动成功后将自动打开浏览器
 
 
-## 源码中调用 API
+## 在源码中调用 API
 
 - api地址: 假设是默认api地址 http://127.0.0.1:5000
 - 调用方法: POST
@@ -81,3 +77,7 @@ print(res.json())
 
 
 
+## 在浏览器中使用
+
+1. 如果是源码部署的官方包，执行 `python webui.py`，等待终端显示 `http://127.0.0.1:7860`时，在浏览器中输入该地址即可使用
+2. 如果是win整合包，双击`run-webui.bat`，启动成功后将自动打开浏览器

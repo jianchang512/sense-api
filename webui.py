@@ -185,10 +185,9 @@ html_content = """
 <div>
     <h2 style="font-size: 22px;margin-left: 0px;">SenseVoice-Small</h2>
     <p style="font-size: 18px;margin-left: 20px;">SenseVoice-Small 是一种纯编码器语音基础模型，专为快速语音理解而设计</p>
-    <h2 style="font-size: 22px;margin-left: 0px;">相关链接</h2>
-    <p style="font-size: 18px;margin-left: 20px;"><a href="https://github.com/FunAudioLLM/SenseVoice" target="_blank">SenseVoice阿里官方GitHub</a></p>
-    <p style="font-size: 18px;margin-left: 20px;"><a href="https://github.com/jianchang512/sense-api" target="_blank">Sense-Api仓库</a></p>
-    <p style="font-size: 18px;margin-left: 20px;"><a href="https://github.com/jianchang512/pyvideotrans" target="_blank">pyVideoTrans仓库</a></p>
+    <p style="font-size: 18px;margin-left: 20px;"><a href="https://github.com/FunAudioLLM/SenseVoice" target="_blank">SenseVoice阿里官方GitHub</a>
+    <a href="https://github.com/jianchang512/sense-api" target="_blank">Sense-Api仓库</a></p>
+    <a href="https://github.com/jianchang512/pyvideotrans" target="_blank">pyVideoTrans仓库</a></p>
 </div>
 """
 
