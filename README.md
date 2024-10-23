@@ -58,19 +58,19 @@ PORT=5000
 - 调用方法: POST
 - 请求参数
 	- lang: 字符串类型，可传入 zh | ja | ko | en 四者之一
-	- file: 要识别的音频二进制数据
+	- file: 要识别的音频二进制数据 wav格式
 - 返回响应
 	- 识别成功返回: {code:0,msg:ok,data:"完整的srt字幕格式字符串"}
 	- 识别失败返回: {code:1,msg:"错误原因"}
 	- 其他内部错误返回: {detail:"错误信息"}
 	
 	
-示例: 要识别 10.mp3 音频文件，该文件中说话语言为中文。
+示例: 要识别 10.wav 音频文件，该文件中说话语言为中文。
 
 ```
 
 import requests
-res = requests.post(f"http://127.0.0.1:5000/asr", files={"file": open("c:/users/c1/videos/10s.mp3", 'rb')},data={"lang":"zh"}, timeout=7200)
+res = requests.post(f"http://127.0.0.1:5000/asr", files={"file": open("c:/users/c1/videos/10s.wav", 'rb')},data={"lang":"zh"}, timeout=7200)
 print(res.json())
 
 ```
