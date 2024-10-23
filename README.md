@@ -47,6 +47,7 @@ PORT=5000
 **在视频翻译配音工具中使用**
 
 将api地址填写到菜单--语音识别设置-SenseVoice语音识别窗口的 API地址中即可。
+![sense1](https://github.com/user-attachments/assets/5a2d93b9-4c8b-4292-a47e-627e2d08f044)
 
 
 ## 使用 webui在浏览器中使用
