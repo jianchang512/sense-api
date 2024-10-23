@@ -20,9 +20,8 @@ SenseVoice 是阿里开源的语音识别基础模型，支持识别中日韩英
 
 > 该api.py中忽略了情感识别处理，只支持 中日韩英 4种语音的识别
 
-以下简单介绍如何使用这份api。
 
-## 首先需要部署 SenseVoice 项目
+## 部署 SenseVoice 项目
 
 1. 可使用官方源码方式部署，支持部署到Windows/Linux/MacOSX上，具体教程可参考SenseVoice项目主页 https://github.com/FunAudioLLM/SenseVoice 。部署后，从本项目中下载`api.py`文件，覆盖官方包中自带的`api.py`文件(**若要在视频翻译软件中使用，则必须覆盖，否则无法获得带时间戳的字幕**)
 2. 使用win整合包部署，仅支持部署在Windows10/11上，在本页面右侧 https://github.com/jianchang512/sense-api/releases  下载压缩包，解压后双击 `run-api.bat` 即可使用 `API`, 双击`run-webui.bat`可打开web界面。
@@ -32,7 +31,9 @@ SenseVoice 是阿里开源的语音识别基础模型，支持识别中日韩英
 
 默认 Api 地址是 `http://127.0.0.1:5000/asr`
 
-可打开 `api.py` 文件修改，```
+可打开 `api.py` 文件修改，
+
+```
 HOST='127.0.0.1'
 PORT=5000
 ```
