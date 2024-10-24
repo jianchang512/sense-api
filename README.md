@@ -50,6 +50,13 @@ PORT=5000
 ![sense1](https://github.com/user-attachments/assets/5a2d93b9-4c8b-4292-a47e-627e2d08f044)
 
 
+## 使用GPU加速
+
+整合包默认不支持GPU加速，如果需要GPU加速， 请确认使用了英伟达显卡，并且已安装配置好CUDA环境，然后在当前api.py所在文件夹内地址栏中，输入`cmd`回车，然后分别执行下面2条命令
+
+`pip uninstall -y torch torchaudio`
+
+`pip3 install torch torchaudio --index-url https://download.pytorch.org/whl/cu118`
 
 
 ## 在源码中调用 API
